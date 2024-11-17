@@ -5,8 +5,8 @@ use Illuminate\Auth\Access\AuthorizationException;
 use Illuminate\Auth\AuthenticationException;
 
 return [
-    'title' => 'API Platform',
-    'description' => 'My awesome API',
+    'title' => env('APP_NAME', 'Literature HUB API'),
+    'description' => 'API for Literature HUB',
     'version' => '1.0.0',
 
     'routes' => [
